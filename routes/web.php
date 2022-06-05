@@ -14,9 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome', [
+        'name' => 'Puthea Khem',
+        ]); // welcome.php welcome.blade.php view(blade template)
 });
 
 Route::get('/home', function() {
-   echo 1+1;
+   return view('pages.home');
 });
