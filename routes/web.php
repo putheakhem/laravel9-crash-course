@@ -28,3 +28,10 @@ Route::get('/', function () {
 Route::get('/home', [HomeController::class, 'index']);
 
 Route::get('/posts', PostController::class);
+
+Route::get('/about', function() {
+    return view('pages.about');
+});
+Route::get('/post', function() {
+   return view('pages.post');
+});

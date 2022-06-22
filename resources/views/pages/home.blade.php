@@ -1,15 +1,32 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HOME Page</title>
-</head>
-<body>
-    <h1>
-        Welcome to Laravel Class
-    </h1>
-</body>
-</html>
+<x-main>
+
+    <x-slot:title>
+            Home
+    </x-slot:title>
+
+    Home Page
+
+
+</x-main>
+
+
+
+
+
+
+
+
+
+
+{{--@extends('layouts.master')--}}
+{{--@section('title')--}}
+{{--    Home Page--}}
+{{--@endsection--}}
+
+
+
+{{--@section('content')--}}
+{{--    <h1>Welcome to Home Page</h1>--}}
+{{--    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aperiam, dignissimos distinctio eos fugiat--}}
+{{--        id in laboriosam odio, praesentium quas quo voluptas! Cum labore, perferendis quia quisquam suscipit unde.</p>--}}
+{{--@endsection--}}
