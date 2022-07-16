@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome', [
         'name' => 'Puthea Khem',
-        ]); // welcome.php welcome.blade.php view(blade template)
+    ]); // welcome.php welcome.blade.php view(blade template)
 });
 
 //Route::get('/home', function() {
@@ -29,9 +29,9 @@ Route::get('/home', [HomeController::class, 'index']);
 
 Route::get('/posts', PostController::class);
 
-Route::get('/about', function() {
+Route::get('/about', function () {
     return view('pages.about');
 });
-Route::get('/post', function() {
-   return view('pages.post');
+Route::get('/post', function () {
+    return view('pages.post');
 });
