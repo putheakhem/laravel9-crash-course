@@ -1,19 +1,11 @@
 {
   "resources/js/app.js": {
-    "file": "assets/app.ddd64930.js",
+    "file": "assets/app.e1738c58.js",
     "src": "resources/js/app.js",
-    "isEntry": true,
-    "dynamicImports": [
-      "resources/js/bootstrap.js"
-    ]
-  },
-  "resources/js/bootstrap.js": {
-    "file": "assets/bootstrap.90f8ad34.js",
-    "src": "resources/js/bootstrap.js",
-    "isDynamicEntry": true
+    "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.51459d40.css",
+    "file": "assets/app.bc8b21bf.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }

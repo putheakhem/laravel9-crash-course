@@ -3,10 +3,7 @@
     <x-slot:title>
             Home
     </x-slot:title>
-
-    Home Page
-
-
+    <h1 class="text-color">Run Me Hi</h1>
 </x-main>
 
 
