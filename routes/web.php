@@ -19,7 +19,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/service', [ServiceController::class, 'index']);
-Route::get('services/create', [ServiceController::class, 'create'])->name('backend.services')->middleware('auth');
+Route::get('services/index', [ServiceController::class, 'list'])->name('backend.services')->middleware('auth');
+Route::get('services/create', [ServiceController::class, 'create'])->name('services.create')->middleware('auth');
+Route::post('services/store', [ServiceController::class, 'store'])->name('services.store')->middleware('auth');
 Route::get('/about', AboutController::class);
 Route::get('/contact', ContactController::class);
 
