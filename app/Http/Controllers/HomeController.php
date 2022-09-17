@@ -9,8 +9,9 @@ class HomeController extends Controller
     public function index()
     {
         $services = Service::all();
+
         return view('index', [
-            'services' => $services
+            'services' => $services,
         ]);
     }
 }
