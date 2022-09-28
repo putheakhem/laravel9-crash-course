@@ -65,4 +65,12 @@ class ServiceController extends Controller
 
         return redirect()->route('backend.services');
     }
+
+    public function show($id) {
+        $services = Service::find($id);
+
+        return view('services.show', [
+            'services' => $services
+        ]);
+    }
  }

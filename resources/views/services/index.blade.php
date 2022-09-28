@@ -71,6 +71,15 @@
                                 <span> {{ $service->created_at }}</span>
                             </td>
 
+
+                            <td
+                                class="text-sm font-medium leading-5 text-center whitespace-no-wrap border-b border-gray-200 ">
+                                <a href="{{ route('services.show', $service->id) }}">
+                                  Show
+                                </a>
+
+                            </td>
+
                             <td
                                 class="text-sm font-medium leading-5 text-center whitespace-no-wrap border-b border-gray-200 ">
                                 <a href="{{ route('services.edit', $service->id) }}"
